@@ -1,11 +1,13 @@
 "use strict";
 
+const blogAuthor = 'Tejas Deshpande';
+const employer = 'Grover Group GmbH';
+const designation = `Senior Mobile Test Automation Engineer @ ${employer}`;
 module.exports = {
   url: "https://tkdeshpande.github.io",
   pathPrefix: "/",
-  title: "Blog by John Doe",
-  subtitle:
-    "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  title: `Blog by ${blogAuthor}`,
+  subtitle: designation,
   copyright: "© All rights reserved.",
   disqusShortname: "",
   postsPerPage: 4,
@@ -26,9 +28,9 @@ module.exports = {
     },
   ],
   author: {
-    name: "John Doe",
+    name: blogAuthor,
     photo: "/photo.jpg",
-    bio: "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    bio: designation,
     contacts: {
       email: "",
       facebook: "",
