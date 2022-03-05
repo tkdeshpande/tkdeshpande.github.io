@@ -4,10 +4,9 @@ date: "2022-05-03"
 template: "post"
 draft: false
 slug: "qa-onboarding"
-category: "Test management"
+category: "Test Management"
 tags:
-  - "onboarding"
-  - "Learning to write"
+  - "Onboarding"
 description: "The most effective onboarding process for QA/Testers & Automation Engineers."
 # socialImage: "/media/image-2.jpg"
 ---
